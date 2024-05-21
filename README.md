@@ -9,7 +9,7 @@ It is required to implement a digital lock that will accept a specific bit seque
 ![image](https://github.com/RESMIRNAIR/DIGI_LOCK/assets/154305926/61af2bd3-8217-461d-bbce-df66969fe413)
 
 # program
-
+~~~
 module dlock (unlock, b_in, clear, clk);
 
    input b_in, clear, clk;
@@ -63,3 +63,4 @@ always @(state)
    end
 
 endmodule
+~~~
